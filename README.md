@@ -1,4 +1,4 @@
-# TOP_Admin-Dashboard
+# Admin Dashboard
 
 Mockup of an Admin Page. Intended as and exercise to practice CSS Grid layouts.
 
