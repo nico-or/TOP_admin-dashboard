@@ -68,14 +68,17 @@ body {
 }
 
 .top-container {
+  background-color: chocolate;
   grid-area: top;
 }
 
 .projects-container {
+  background-color: aqua;
   grid-area: main;
 }
 
 .right-container {
+  background-color: lime;
   grid-area: right;
 
   display: flex;
@@ -84,6 +87,14 @@ body {
 
 .right-container > div {
   flex-grow: 1;
+}
+
+.announcements-container {
+  background-color: darkgreen;
+}
+
+.trending-container {
+  background-color: lightpink;
 }
 
 /* projects section */
