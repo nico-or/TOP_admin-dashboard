@@ -54,3 +54,34 @@ body {
 .navbar a:hover {
   background-color: var(--black-chocolate-light);
 }
+
+/* main layout */
+
+.main {
+  display: grid;
+  grid-template-areas:
+  "top top"
+  "main right";
+
+  grid-template-rows: 20% 1fr;
+  grid-template-columns: 1fr 20%;
+}
+
+.top-container {
+  grid-area: top;
+}
+
+.projects-container {
+  grid-area: main;
+}
+
+.right-container {
+  grid-area: right;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.right-container > div {
+  flex-grow: 1;
+}
